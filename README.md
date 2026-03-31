@@ -1,4 +1,4 @@
-## Project Proposal
+                                          ## **Project Proposal**
 
 In this project, we aim to analyze electroencephalography (EEG) brain signal data to determine
 whether machine learning methods can accurately classify harmful brain activity, such as seizures. EEG
