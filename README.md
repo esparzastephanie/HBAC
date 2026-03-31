@@ -1,4 +1,5 @@
 ## Project Proposal
+
 In this project, we aim to analyze electroencephalography (EEG) brain signal data to determine
 whether machine learning methods can accurately classify harmful brain activity, such as seizures. EEG
 data represents electrical activity in the brain over time and is commonly used in medical diagnosis for
@@ -6,6 +7,7 @@ neurological conditions. However, interpreting EEG signals is extremely complex 
 highly variable, noisy, and often difficult to distinguish even for trained experts. In many cases, different
 medical professionals may disagree on how to classify the same brain activity pattern, which highlights
 both the difficulty and importance of this problem.
+
 The dataset we will use is the HMS Harmful Brain Activity Classification dataset, which includes
 EEG recordings along with expert-labeled brain activity patterns. These labels identify whether a segment
 of EEG data corresponds to harmful activity such as seizures or normal brain function. Unlike typical
@@ -17,6 +19,7 @@ useful features, and use those features to build models that can accurately clas
 This problem is especially meaningful because early detection of seizures can significantly improve
 patient outcomes, and a reliable model could support medical professionals in making faster and more
 consistent decisions.
+
 To approach this problem, we will begin by carefully exploring and preprocessing the dataset.
 Since EEG signals are continuous and high-dimensional, we will segment them into smaller time
 windows and extract relevant features from each segment. These features will include statistical measures
@@ -30,6 +33,7 @@ models offers different strengths in handling complex patterns and high-dimensio
 these traditional approaches, we will also explore deep learning methods, such as neural networks, to
 determine whether they can better capture the underlying structure of EEG signals. By comparing a range
 of models, we aim to identify which techniques are most effective for this type of problem.
+
 For evaluation, we will use several performance metrics to ensure a complete and realistic
 assessment of our models. While accuracy and F1-score are commonly used, we recognize that the
 F1-score alone may not be sufficient for this problem. EEG datasets are often imbalanced, with far fewer
@@ -39,6 +43,7 @@ these errors equally, it may not fully reflect the real-world importance of mode
 we will also focus on metrics such as recall, precision, and area under the ROC and precision-recall
 curves to experiment with the possibility of using these models to predict harmful activity at earlier
 stages.
+
 Finally, we will analyze and compare the results of all models, interpret their performance, and
 discuss the limitations of our approach. We will consider how noise, variability, and uncertainty in EEG
 data affect the results and explore how different modeling choices influence performance. Through this
